@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-01-17 03:08\n"
+"POT-Creation-Date: 2026-01-31 03:22\n"
 "PO-Revision-Date: 2024-04-30 08:07+0000\n"
 "Last-Translator: Cochrane <cunyikang@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -31,9 +31,10 @@ msgstr "残差平方和为0；这可能是由于因变量的方差极低造成�
 msgid "An error occurred while computing the ANOVA: %s"
 msgstr "计算 ANOVA 时出错：%s"
 
+#, fuzzy
 msgid ""
 "Your design contains empty cells. Please try a different type of sum of "
-"squares."
+"squares or remove an interaction effect from the model."
 msgstr "您的设计包含空单元格。请尝试使用不同类型的平方和。"
 
 msgid ""
@@ -41,6 +42,15 @@ msgid ""
 "after grouping on the following level(s) of '%2$s': %3$s"
 msgstr ""
 "无法计算 Welch 校正，因为在“%2$s”的以下几个水平分组后“%1$s”的方差为零：%3$s"
+
+msgid ""
+"Due to empty cells in the design, only %1$s of %2$s effects are estimable."
+msgstr ""
+
+msgid ""
+"Some higher-order interaction effects are not supported by the data and are "
+"therefore omitted."
+msgstr ""
 
 msgid "ANOVA"
 msgstr "方差分析"

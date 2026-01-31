@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-01-17 03:08\n"
+"POT-Creation-Date: 2026-01-31 03:22\n"
 "PO-Revision-Date: 2022-02-04 03:58+0000\n"
 "Last-Translator: Harris Abd Hamid <harris75@gmail.com>\n"
 "Language-Team: Malay <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -37,15 +37,25 @@ msgstr ""
 msgid "An error occurred while computing the ANOVA: %s"
 msgstr "Keralatan berlaku semasa pengiraan ANOVA: %s"
 
+#, fuzzy
 msgid ""
 "Your design contains empty cells. Please try a different type of sum of "
-"squares."
+"squares or remove an interaction effect from the model."
 msgstr ""
 "Rekabentuk anda ada sel kosong. Sila cuba jenis jumlah kuasa dua yang lain."
 
 msgid ""
 "The Welch correction could not be computed because '%1$s' has zero variance "
 "after grouping on the following level(s) of '%2$s': %3$s"
+msgstr ""
+
+msgid ""
+"Due to empty cells in the design, only %1$s of %2$s effects are estimable."
+msgstr ""
+
+msgid ""
+"Some higher-order interaction effects are not supported by the data and are "
+"therefore omitted."
 msgstr ""
 
 msgid "ANOVA"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.19.2\n"
-"POT-Creation-Date: 2026-01-17 03:08\n"
+"POT-Creation-Date: 2026-01-31 03:22\n"
 "PO-Revision-Date: 2026-01-07 03:08+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -37,9 +37,10 @@ msgstr ""
 msgid "An error occurred while computing the ANOVA: %s"
 msgstr "ANOVA ஐ கணக்கிடும்போது பிழை ஏற்பட்டது: %s"
 
+#, fuzzy
 msgid ""
 "Your design contains empty cells. Please try a different type of sum of "
-"squares."
+"squares or remove an interaction effect from the model."
 msgstr ""
 "உங்கள் வடிவமைப்பில் வெற்று செல்கள் உள்ளன. தயவுசெய்து வேறு வகையான சதுரங்களை முயற்சிக்கவும்."
 
@@ -49,6 +50,15 @@ msgid ""
 msgstr ""
 "வெல்ச் திருத்தத்தை கணக்கிட முடியவில்லை, ஏனெனில் '%1$s' '%2$s' இன் பின்வரும் மட்டத்தில் "
 "(கள்) தொகுக்கப்பட்ட பிறகு சுழிய மாறுபாட்டைக் கொண்டுள்ளது:%3$s"
+
+msgid ""
+"Due to empty cells in the design, only %1$s of %2$s effects are estimable."
+msgstr ""
+
+msgid ""
+"Some higher-order interaction effects are not supported by the data and are "
+"therefore omitted."
+msgstr ""
 
 msgid "ANOVA"
 msgstr "அனோவா"
