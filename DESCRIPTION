@@ -36,6 +36,5 @@ Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspDescriptives,
   jasp-stats/jaspGraphs,
-  jasp-stats/jaspTTests,
-  Kucharssim/restriktor
+  jasp-stats/jaspTTests
 RoxygenNote: 7.3.2
