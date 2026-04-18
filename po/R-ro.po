@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2024-01-11 18:06+0000\n"
 "Last-Translator: fiscuteancom <vladfiscutean@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/jasp/jaspanova-"
@@ -142,12 +142,15 @@ msgstr ""
 msgid "Some parameters were not estimable due to missingness."
 msgstr ""
 
-msgid "Bootstrapping based on %s successful replicates."
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
+
+msgid "Mean Difference estimates"
 msgstr ""
 
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
 msgstr ""
 
 msgid "Bias corrected accelerated."
@@ -394,6 +397,9 @@ msgid ""
 "tests (Maxwell, 1980; Field, 2012)."
 msgstr ""
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr ""
+
 msgid "Nonparametrics"
 msgstr ""
 
@@ -595,6 +601,21 @@ msgstr ""
 msgid "%s%% Credible Interval"
 msgstr ""
 
+msgid "Variable"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Mean"
+msgstr "Media"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr ""
 
@@ -634,9 +655,6 @@ msgid ""
 "including this parameter."
 msgstr ""
 
-msgid "Level"
-msgstr ""
-
 msgid "Density"
 msgstr "Densitate"
 
@@ -654,6 +672,9 @@ msgid ""
 "Bayes factor denotes that it is uncorrected."
 msgstr ""
 
+msgid "Post Hoc Comparisons - %s"
+msgstr ""
+
 msgid "Prior Odds"
 msgstr ""
 
@@ -668,12 +689,6 @@ msgstr ""
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Media"
-
-msgid "SD"
-msgstr "SD"
 
 msgid "SE"
 msgstr "SE"
@@ -732,9 +747,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr ""
 
-msgid "Variable"
-msgstr ""
-
 msgid "Single Model Posterior Distributions"
 msgstr ""
 
@@ -786,6 +798,10 @@ msgstr "W<sub>i</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "W<sub>i</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "W<sub>i</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr ""
 
@@ -798,6 +814,9 @@ msgid ""
 "P-value and confidence intervals adjusted for comparing a family of %1$s "
 "estimates (ci for mean difference corrected using the %2$s method; ci for "
 "effect size corrected using the Bonferroni method)."
+msgstr ""
+
+msgid "The p-value correction is not affected by the bootstrap."
 msgstr ""
 
 msgid "Marginal Means -"

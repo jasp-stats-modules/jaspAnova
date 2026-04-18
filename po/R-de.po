@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-03-11 03:22+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -155,14 +155,19 @@ msgstr "Ergebnisse sind gemittelt über die Stufen von: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Einige Parameter waren wegen fehlender Daten nicht schätzbar."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping basierend auf %s erfolgreichen Wiederholungen."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"Die Schätzung der mittleren Differenz basiert auf dem Median der Bootstrap-"
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Mittelwertsdifferenz"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"Die Schätzung der Randmittelwerte basiert auf dem Median der Bootstrap-"
 "Verteilung."
 
 msgid "Bias corrected accelerated."
@@ -431,6 +436,9 @@ msgstr ""
 "%s korrigierte p-Werte sind für Post-hoc-Tests bei Messwiederholung nicht "
 "geeignet (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping basierend auf %s erfolgreichen Wiederholungen."
+
 msgid "Nonparametrics"
 msgstr "Nichtparametrisch"
 
@@ -662,6 +670,21 @@ msgstr "Modell-gemittelte Posterior-Zusammenfassung"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Glaubwürdigkeitsintervall"
 
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Level"
+msgstr "Stufe"
+
+msgid "Mean"
+msgstr "Mittelwert"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Modell-gemittelte R%s"
 
@@ -708,9 +731,6 @@ msgstr ""
 "Die a posteriori Verteilung konnte nicht dargestellt werden. Überprüfen Sie, "
 "ob bei Modellen mit diesem Parameter ein Fehler aufgetreten ist."
 
-msgid "Level"
-msgstr "Stufe"
-
 msgid "Density"
 msgstr "Dichte"
 
@@ -733,6 +753,10 @@ msgstr ""
 "Vergleiche basieren auf dem Standard-t-Test mit einem Cauchy-Prior (0, r = 1/"
 "sqrt(2)). Das \"U\" beim Bayesfaktor zeigt an, dass er nicht korrigiert ist."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Post-hoc-Vergleiche -"
+
 msgid "Prior Odds"
 msgstr "a-priori Chancen"
 
@@ -747,12 +771,6 @@ msgstr "Deskriptiv - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Mittelwert"
-
-msgid "SD"
-msgstr "SD"
 
 msgid "SE"
 msgstr "Standardfehler"
@@ -820,9 +838,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Einzelmodell Posterior-Zusammenfassung"
 
-msgid "Variable"
-msgstr "Variable"
-
 msgid "Single Model Posterior Distributions"
 msgstr "a posteriori Verteilung eines Einzelmodells"
 
@@ -871,6 +886,10 @@ msgstr "p<sub>Scheffe</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>Sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "P-Wert angepasst, um eine Familie von %s Schätzern zu vergleichen."
 
@@ -889,6 +908,9 @@ msgstr ""
 "P-Wert und Konfidenzintervalle angepasst, um eine Familie von %1$s "
 "Schätzungen zu vergleichen (KI für Mittelwertdifferenz korrigiert mit der "
 "%2$s Methode; KI für Effektstärke korrigiert mit der Bonferroni-Methode)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Randmittelwerte -"
@@ -1191,6 +1213,13 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Nullmodell (inkl. %s und zufällige Steigungen)"
 msgstr[1] "Nullmodell (inkl. %s, und zufällige Steigungen)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "Die Schätzung der mittleren Differenz basiert auf dem Median der "
+#~ "Bootstrap-Verteilung."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "Kein unrepliziertes komplettes Blockdesign."

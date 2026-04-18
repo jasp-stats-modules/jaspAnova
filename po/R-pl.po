@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.17.0\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2025-07-03 07:49+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -151,14 +151,20 @@ msgstr "Wyniki są uśrednione dla poziomów z: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Niektórych parametrów nie można było oszacować z powodu braków danych."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrap oparty na %s udanych replikacjach."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"Oszacowanie różnicy średnich jest oparte na medianie rozkładu bootstrapowego."
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Różnica średnich"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"Oszacowanie średnich brzegowych opiera się na medianie rozkładu "
+"bootstrapowego."
 
 msgid "Bias corrected accelerated."
 msgstr "Skorygowane względem obciążenia i przyspieszone (BCa)."
@@ -426,6 +432,9 @@ msgstr ""
 "Wartości p skorygowane przez %s nie są odpowiednie dla testów post-hoc dla "
 "powtarzanych pomiarów (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrap oparty na %s udanych replikacjach."
+
 msgid "Nonparametrics"
 msgstr "Nieparametryczne"
 
@@ -661,6 +670,21 @@ msgstr "Uśrednione podsumowanie a posteriori"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Przedział wiarygodności"
 
+msgid "Variable"
+msgstr "Zmienna"
+
+msgid "Level"
+msgstr "Poziom"
+
+msgid "Mean"
+msgstr "Średnia"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Uśrednione R%s"
 
@@ -707,9 +731,6 @@ msgstr ""
 "Nie można wykreślić rozkładu a posteriori. Sprawdź czy wystąpił błąd dla "
 "modeli zawierających ten parametr."
 
-msgid "Level"
-msgstr "Poziom"
-
 msgid "Density"
 msgstr "Gęstość"
 
@@ -733,6 +754,10 @@ msgstr ""
 "Cauchy'ego (0, r = 1/sqrt(2)). \"U\" przy współczynniku Bayesa oznacza, że "
 "jest on nieskorygowany."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Porównania post-hoc -"
+
 msgid "Prior Odds"
 msgstr "Szanse a priori"
 
@@ -747,12 +772,6 @@ msgstr "Statystyki opisowe - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Średnia"
-
-msgid "SD"
-msgstr "SD"
 
 msgid "SE"
 msgstr "Błąd stand."
@@ -818,9 +837,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Podsumowanie a posteriori dla pojedynczego modelu"
 
-msgid "Variable"
-msgstr "Zmienna"
-
 msgid "Single Model Posterior Distributions"
 msgstr "Rozkłady a posteriori dla pojedynczego modelu"
 
@@ -872,6 +888,10 @@ msgstr "p<sub>scheffe</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "Wartość p skorygowana w celu porównania analiz %s."
 
@@ -892,6 +912,9 @@ msgstr ""
 "Wartości p i przedziały ufności skorygowane z uwagi na porównywanie "
 "estymacji %1$s (PU dla różnicy średnich skorygowany metodą %2$s; PU dla "
 "wielkości efektu skorygowany metodą Bonferroniego)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Średnie brzegowe -"
@@ -1188,6 +1211,13 @@ msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Model zerowy (w tym %s i losowe nachylenia)"
 msgstr[1] "Modele zerowe (w tym %s i losowe nachylenia)"
 msgstr[2] "Modeli zerowych (w tym %s i losowe nachylenia)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "Oszacowanie różnicy średnich jest oparte na medianie rozkładu "
+#~ "bootstrapowego."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "Nie jest to niepowtarzalny, kompletny schemat blokowy."

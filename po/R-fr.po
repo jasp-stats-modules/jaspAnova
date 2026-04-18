@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2024-07-12 14:30+0000\n"
 "Last-Translator: JASP Stats <b.boutin@uva.nl>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -160,14 +160,19 @@ msgstr ""
 "Certains paramètres n'ont pas pu être estimés, probablement en raison de "
 "cellules vides dans le design."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping basé sur%s de répliques réussies."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"L'estimation des différences de moyennes est basée sur la médiane de la "
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Différence moyenne"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"Les moyennes marginales sont estimées sur la base de la médiane de la "
 "distribution bootstrap."
 
 msgid "Bias corrected accelerated."
@@ -444,6 +449,9 @@ msgstr ""
 "Les valeurs p corrigées de %s ne sont pas appropriées pour les tests post-"
 "hoc à mesures répétées (Maxwell, 1980 ; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping basé sur%s de répliques réussies."
+
 msgid "Nonparametrics"
 msgstr "Non-paramétriques"
 
@@ -678,6 +686,21 @@ msgstr "Résumé"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Intervalle de crédibilité"
 
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Level"
+msgstr "Niveau"
+
+msgid "Mean"
+msgstr "Moyenne"
+
+msgid "SD"
+msgstr "ET"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Modèle R%s moyenné"
 
@@ -725,9 +748,6 @@ msgstr ""
 "Impossible de tracer la distribution postérieure. Vérifiez si une erreur "
 "s'est produite pour les modèles incluant ce paramètre."
 
-msgid "Level"
-msgstr "Niveau"
-
 msgid "Density"
 msgstr "Densité"
 
@@ -752,6 +772,10 @@ msgstr ""
 "avec un a priori de Cauchy (0, r = 1/sqrt(2)). Le \"U\" dans le facteur de "
 "Bayes indique qu'il n'est pas corrigé."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Comparaisons post-hoc -"
+
 msgid "Prior Odds"
 msgstr "Probabilités a priori"
 
@@ -766,12 +790,6 @@ msgstr "Descriptives - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Moyenne"
-
-msgid "SD"
-msgstr "ET"
 
 msgid "SE"
 msgstr "ES"
@@ -845,9 +863,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Résumé a postériori d'un modèle unique"
 
-msgid "Variable"
-msgstr "Variable"
-
 #, fuzzy
 msgid "Single Model Posterior Distributions"
 msgstr "Distribution a postériori d'un modèle unique"
@@ -903,6 +918,10 @@ msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>sidak</sub>"
 
 #, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
+#, fuzzy
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "Valeur p ajustée pour comparer une famille de %s"
 
@@ -923,6 +942,9 @@ msgstr ""
 "Valeur p et intervalles de confiance ajustés pour comparer une famille de "
 "%1$s estimations (intervalles de confiance corrigés à l'aide de la méthode "
 "%2$s)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Moyennes marginales"
@@ -1218,6 +1240,13 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Modèle nul ( inclus %s et pentes aléatoires)"
 msgstr[1] "Modèles nuls ( inclus %s et pentes aléatoires)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "L'estimation des différences de moyennes est basée sur la médiane de la "
+#~ "distribution bootstrap."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "Il ne s'agit pas d'un design en bloc complet non répliqué."

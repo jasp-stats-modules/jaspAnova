@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.95.0\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2025-09-23 10:01+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -152,15 +152,20 @@ msgstr "Emaitzak batez besteko maila hauetan kalkulatzen dira: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Parametro batzuk ezin izan dira kalkulatu falta zirelako."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping %s erreplika arrakastatsuetan oinarrituta."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"Batez besteko Diferentziaren estimazioa bootstrap banaketaren medianaren "
-"oinarrituta dago."
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Batez bestekoen Aldea"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"Batez besteko marjinalaren estimazioa bootstrap banaketaren medianan "
+"oinarritzen da."
 
 #, fuzzy
 msgid "Bias corrected accelerated."
@@ -435,6 +440,9 @@ msgstr ""
 "%s zuzendutako p-balioak ez dira egokiak neurri errepikatuen post-hoc "
 "probetan (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping %s erreplika arrakastatsuetan oinarrituta."
+
 msgid "Nonparametrics"
 msgstr "Ez-parametrikoak"
 
@@ -664,6 +672,21 @@ msgstr "Modeloaren Batez besteko Atzeko Laburpena"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Sinesgarritasun Tartea"
 
+msgid "Variable"
+msgstr "Aldagaia"
+
+msgid "Level"
+msgstr "Maila"
+
+msgid "Mean"
+msgstr "Batez bestekoa"
+
+msgid "SD"
+msgstr "DE"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Modeloaren batez besteko R%s"
 
@@ -710,9 +733,6 @@ msgstr ""
 "Ezin izan da atzeko banaketa irudikatu. Egiaztatu parametro hau barne "
 "hartzen duten modeloetan errore bat gertatu den."
 
-msgid "Level"
-msgstr "Maila"
-
 msgid "Density"
 msgstr "Dentsitatea"
 
@@ -735,6 +755,10 @@ msgstr ""
 "sqrt(2)) aurreko batekin egindako t-test lehenetsian oinarritzen dira. Bayes "
 "faktorearen \"U\"-k zuzendu gabe dagoela adierazten du."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Post Hoc Konparaketak -"
+
 msgid "Prior Odds"
 msgstr "Aurreko Oddsa"
 
@@ -749,12 +773,6 @@ msgstr "Deskribatzaileak - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Batez bestekoa"
-
-msgid "SD"
-msgstr "DE"
 
 msgid "SE"
 msgstr "EE"
@@ -819,9 +837,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Eredu Bakarreko Atzeko Laburpena"
 
-msgid "Variable"
-msgstr "Aldagaia"
-
 msgid "Single Model Posterior Distributions"
 msgstr "Eredu Bakarreko Atzeko Banaketak"
 
@@ -873,6 +888,10 @@ msgstr "p<sub>scheffe</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "P-balioa %s estimazioen familia bat alderatzeko doituta."
 
@@ -892,6 +911,9 @@ msgstr ""
 "P-balioa eta konfiantza-tarteak %1$s estimazioen familia bat alderatzeko "
 "doituta (%2$s metodoa erabiliz zuzendutako batez besteko-diferentziarako kt; "
 "bonferroni metodoa erabiliz zuzendutako efektu-tamainarako kt)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Batez besteko Marjinalak -"
@@ -1184,3 +1206,10 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Eredu nulua (%s eta ausazko maldak barne)"
 msgstr[1] "Eredu nulua (%s eta ausazko maldak barne)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "Batez besteko Diferentziaren estimazioa bootstrap banaketaren medianaren "
+#~ "oinarrituta dago."

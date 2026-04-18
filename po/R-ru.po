@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2025-04-02 18:58+0000\n"
 "Last-Translator: Иван Рудаков <riv@polygene.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -153,14 +153,17 @@ msgstr ""
 "Некоторые параметры не могут быть рассчитаны, скорее всего из-за наличия "
 "пустых ячеек для данного дизайна."
 
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
+
 #, fuzzy
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Бутстрэппинг основан на %s успешных повторах."
+msgid "Mean Difference estimates"
+msgstr "Разница средних"
 
 #, fuzzy
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
 msgstr "Разница средних значений основана на медиане распределения бутстрэпа."
 
 #, fuzzy
@@ -443,6 +446,10 @@ msgid ""
 "tests (Maxwell, 1980; Field, 2012)."
 msgstr ""
 
+#, fuzzy
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Бутстрэппинг основан на %s успешных повторах."
+
 msgid "Nonparametrics"
 msgstr "Непараметрические критерии"
 
@@ -650,6 +657,21 @@ msgstr ""
 msgid "%s%% Credible Interval"
 msgstr ""
 
+msgid "Variable"
+msgstr "Переменная"
+
+msgid "Level"
+msgstr "Уровень"
+
+msgid "Mean"
+msgstr "Среднее значение"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr ""
 
@@ -689,9 +711,6 @@ msgid ""
 "including this parameter."
 msgstr ""
 
-msgid "Level"
-msgstr "Уровень"
-
 msgid "Density"
 msgstr "Плотность"
 
@@ -709,6 +728,10 @@ msgid ""
 "Bayes factor denotes that it is uncorrected."
 msgstr ""
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Апостериорные сравнения -"
+
 msgid "Prior Odds"
 msgstr ""
 
@@ -723,12 +746,6 @@ msgstr "Описательные статистики - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Среднее значение"
-
-msgid "SD"
-msgstr "SD"
 
 msgid "SE"
 msgstr "SE"
@@ -792,9 +809,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr ""
 
-msgid "Variable"
-msgstr "Переменная"
-
 msgid "Single Model Posterior Distributions"
 msgstr ""
 
@@ -848,6 +862,10 @@ msgstr "p<sub>bonf</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "W<sub>i</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>bonf</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr ""
 
@@ -860,6 +878,9 @@ msgid ""
 "P-value and confidence intervals adjusted for comparing a family of %1$s "
 "estimates (ci for mean difference corrected using the %2$s method; ci for "
 "effect size corrected using the Bonferroni method)."
+msgstr ""
+
+msgid "The p-value correction is not affected by the bootstrap."
 msgstr ""
 
 msgid "Marginal Means -"

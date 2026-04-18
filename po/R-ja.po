@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.0.0\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2024-10-25 01:15+0000\n"
 "Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/jaspanova-"
@@ -148,13 +148,18 @@ msgstr "結果は次のレベルで平均化されています: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "一部のパラメーターが推定できません。おそらく，欠損性のためです."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "%s 回成功した再標本に基づいてブートストラップを実施しました。"
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
 
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "平均値差"
+
+#, fuzzy
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
-msgstr "平均差の推定値は，ブートストラップ分布の中央値に基づいています。"
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr "周辺平均の推定値は，ブートストラップ分布の中央値に基づく。"
 
 msgid "Bias corrected accelerated."
 msgstr "バイアス補正を実施した。"
@@ -415,6 +420,9 @@ msgstr ""
 "%s 修正されたp値は，反復測定の事後検定には適していません（Maxwell、1980; "
 "Field、2012）。"
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "%s 回成功した再標本に基づいてブートストラップを実施しました。"
+
 msgid "Nonparametrics"
 msgstr "ノンパラメトリック"
 
@@ -636,6 +644,21 @@ msgstr "モデル平均事後要約"
 msgid "%s%% Credible Interval"
 msgstr "%s%% 信用区間"
 
+msgid "Variable"
+msgstr "変数"
+
+msgid "Level"
+msgstr "水準"
+
+msgid "Mean"
+msgstr "平均値"
+
+msgid "SD"
+msgstr "標準偏差"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "モデル平均 R%s"
 
@@ -681,9 +704,6 @@ msgstr ""
 "事後分布をプロットできませんでした。このパラメータを含むモデルでエラーが発生"
 "したかどうかを確認してください。"
 
-msgid "Level"
-msgstr "水準"
-
 msgid "Density"
 msgstr "密度"
 
@@ -705,6 +725,10 @@ msgstr ""
 "Cauchy (0, r = 1/sqrt(2))事前分布を使用したデフォルトのt検定に基づいていま"
 "す。ベイズファクターの「U」は，それが修正されていないことを示します。"
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "事後比較-"
+
 msgid "Prior Odds"
 msgstr "事前オッズ"
 
@@ -719,12 +743,6 @@ msgstr "記述統計量 - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "平均値"
-
-msgid "SD"
-msgstr "標準偏差"
 
 msgid "SE"
 msgstr "標準誤差"
@@ -791,9 +809,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "単一モデルの事後分布要約"
 
-msgid "Variable"
-msgstr "変数"
-
 msgid "Single Model Posterior Distributions"
 msgstr "単一モデルの事後分布"
 
@@ -845,6 +860,10 @@ msgstr "p <sub>シェッフェ</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>シダック</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "%s の推定値の族を比較する調整された p 値"
 
@@ -863,6 +882,9 @@ msgid ""
 msgstr ""
 "%1$s 推定値の族を比較する調整されたp値と信頼区間（%2$s 法を用いて修正された信"
 "頼区間。すなわちボンフェローニの方法を使って補正された効果量）。"
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "周辺平均 -"
@@ -1149,6 +1171,11 @@ msgstr ""
 msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "帰無モデル (%s と含む変量傾きを含む)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr "平均差の推定値は，ブートストラップ分布の中央値に基づいています。"
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "非複製された完備型ブロック計画ではありません."

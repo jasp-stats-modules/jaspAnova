@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2025-05-03 02:57+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -153,14 +153,19 @@ msgstr "Resultaten zijn gemiddeld over de levels van: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Sommige parameters konden niet worden geschat omdat er iets ontbreekt."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping gebaseerd op %s succesvolle replicaties."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"Gemiddelde Verschilsschatting is gebaseerd op de mediaan van de "
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Gemiddeld Verschil"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"Marginale Gemiddelden schatting is gebaseerd op de mediaan van de "
 "bootstrapverdeling."
 
 msgid "Bias corrected accelerated."
@@ -431,6 +436,9 @@ msgstr ""
 "%s gecorrigeerde p-waarden zijn niet geschikt voor herhaalde metingen post-"
 "hoc toetsen (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping gebaseerd op %s succesvolle replicaties."
+
 msgid "Nonparametrics"
 msgstr "Niet parametrisch"
 
@@ -658,6 +666,21 @@ msgstr "Model Gemiddelde Posterior Samenvatting"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Geloofwaardigheidsinterval"
 
+msgid "Variable"
+msgstr "Variabele"
+
+msgid "Level"
+msgstr "Niveau"
+
+msgid "Mean"
+msgstr "Gemiddelde"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Model Gemiddelde R%s"
 
@@ -703,9 +726,6 @@ msgstr ""
 "Kon de posterior verdeling niet plotten. Controleer of er een fout zat in "
 "modellen die deze parameter bevatten."
 
-msgid "Level"
-msgstr "Niveau"
-
 msgid "Density"
 msgstr "Dichtheid"
 
@@ -728,6 +748,10 @@ msgstr ""
 "zijn gebaseerd op de standaard t-toets met een Cauchy (0, r = 1/sqrt(2)) "
 "prior. De \"U\" in de Bayes factor geeft aan dat deze niet is gecorrigeerd."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Post-Hoc Vergelijkingen -"
+
 msgid "Prior Odds"
 msgstr "Prior Kans"
 
@@ -742,12 +766,6 @@ msgstr "Beschrijvingen - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Gemiddelde"
-
-msgid "SD"
-msgstr "SD"
 
 msgid "SE"
 msgstr "Std. Fout"
@@ -815,9 +833,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Enkel Model Posterior Samenvatting"
 
-msgid "Variable"
-msgstr "Variabele"
-
 msgid "Single Model Posterior Distributions"
 msgstr "Enkel Model Posterior Verdelingen"
 
@@ -869,6 +884,10 @@ msgstr "p<sub>scheffe</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "P-waarde aangepast om een familie van %s schattingen te vergelijken."
 
@@ -890,6 +909,9 @@ msgstr ""
 "schattingen te vergelijken (betrouwbaarheidsintervallen voor gemiddelde "
 "verschil gecorrigeerd met de %2$s methode; betrouwbaarheidsintervallen voor "
 "de effectgrootte gecorrigeerd met de bonferroni methode)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Marginale Gemiddeldes -"
@@ -1181,6 +1203,13 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Nulmodel (incl. %s en willekeurige hellingen)"
 msgstr[1] "Nulmodel (incl. %s, en willekeurige hellingen)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "Gemiddelde Verschilsschatting is gebaseerd op de mediaan van de "
+#~ "bootstrapverdeling."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "Geen ongerepliceerd compleet blokontwerp."

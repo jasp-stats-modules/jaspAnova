@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.15\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2024-04-30 08:07+0000\n"
 "Last-Translator: Cochrane <cunyikang@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -146,13 +146,18 @@ msgstr "结果在以下水平上取平均值：%s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "某些参数无法估计，很可能是由于设计中有空单元。"
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "基于 %s 次样本的Bootstrap抽样已成功复刻。"
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
 
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "平均差"
+
+#, fuzzy
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
-msgstr "平均差估计基于自举(bootstrap)分布的中位数。"
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr "边际均值估计基于自举(bootstrap)分布的中位数。"
 
 msgid "Bias corrected accelerated."
 msgstr "偏差校正和加速。"
@@ -403,6 +408,9 @@ msgid ""
 "tests (Maxwell, 1980; Field, 2012)."
 msgstr "%s 中校正的 p 值不适用于重复测量事后检验(Maxwell, 1980; Field, 2012)。"
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "基于 %s 次样本的Bootstrap抽样已成功复刻。"
+
 msgid "Nonparametrics"
 msgstr "非参数检验"
 
@@ -618,6 +626,21 @@ msgstr "模型平均后验摘要"
 msgid "%s%% Credible Interval"
 msgstr "%s%% 可信区间"
 
+msgid "Variable"
+msgstr "变量"
+
+msgid "Level"
+msgstr "水平"
+
+msgid "Mean"
+msgstr "均值"
+
+msgid "SD"
+msgstr "标准差"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "模型平均 R%s"
 
@@ -660,9 +683,6 @@ msgid ""
 "including this parameter."
 msgstr "无法绘制后验分布。检查包含此参数的模型是否有错误。"
 
-msgid "Level"
-msgstr "水平"
-
 msgid "Density"
 msgstr "密度"
 
@@ -683,6 +703,10 @@ msgstr ""
 "(Westfall, Johnson, & Utts, 1997)。个别比较基于默认的 t 检验，并使用 Cauchy "
 "(0, r = 1/sqrt(2)) 先验。贝叶斯因子中的“U”表示未校正。"
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "事后比较 -"
+
 msgid "Prior Odds"
 msgstr "先验几率"
 
@@ -697,12 +721,6 @@ msgstr "描述统计 - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "均值"
-
-msgid "SD"
-msgstr "标准差"
 
 msgid "SE"
 msgstr "SE"
@@ -766,9 +784,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "单一模型后验摘要"
 
-msgid "Variable"
-msgstr "变量"
-
 msgid "Single Model Posterior Distributions"
 msgstr "单一模型后验分布"
 
@@ -821,6 +836,10 @@ msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>sidak</sub>"
 
 #, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
+#, fuzzy
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "为比较 %s 族而调整的 P 值"
 
@@ -839,6 +858,9 @@ msgid ""
 msgstr ""
 "为比较 %1$s 估计值系列而调整的 P 值和置信区间（使用 %2$s 方法校正的置信区"
 "间）。"
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "边际均值 -"
@@ -1107,6 +1129,11 @@ msgstr ""
 msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "空模型（包括 %s）"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr "平均差估计基于自举(bootstrap)分布的中位数。"
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "不是一个非重复的完整块设计。"

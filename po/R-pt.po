@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-02-08 11:09+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
@@ -161,14 +161,19 @@ msgstr "Os resultados são calculados em média nos níveis de:%s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Alguns parâmetros não foram estimáveis devido à ausência deles."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping baseado em %s replicações bem-sucedidas."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"A estimativa da diferença média é baseada na mediana da distribuição "
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Diferença Média"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"A estimativa das médias marginais é baseada na mediana da distribuição "
 "bootstrap."
 
 msgid "Bias corrected accelerated."
@@ -437,6 +442,9 @@ msgstr ""
 "Os valores p corrigidos de %s não são apropriados para testes post-hoc de "
 "medidas repetidas (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping baseado em %s replicações bem-sucedidas."
+
 msgid "Nonparametrics"
 msgstr "Não paramétricos"
 
@@ -667,6 +675,21 @@ msgstr "Resumo da média posterior do modelo"
 msgid "%s%% Credible Interval"
 msgstr "%s%% Intervalo de credibilidade"
 
+msgid "Variable"
+msgstr "Variável"
+
+msgid "Level"
+msgstr "Nível"
+
+msgid "Mean"
+msgstr "Média"
+
+msgid "SD"
+msgstr "DP"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "Modelo médio R%s"
 
@@ -713,9 +736,6 @@ msgstr ""
 "Não foi possível traçar a distribuição posterior. Verifique se ocorreu um "
 "erro nos modelos que incluem este parâmetro."
 
-msgid "Level"
-msgstr "Nível"
-
 msgid "Density"
 msgstr "Densidade"
 
@@ -738,6 +758,10 @@ msgstr ""
 "baseadas no teste t padrão com um Cauchy (0, r = 1 / sqrt (2)) anterior. O "
 "\"U\" no fator de Bayes denota que ele não está corrigido."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Comparações Post Hoc -"
+
 msgid "Prior Odds"
 msgstr "Probabilidades anteriores"
 
@@ -752,12 +776,6 @@ msgstr "Descritivas - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Média"
-
-msgid "SD"
-msgstr "DP"
 
 msgid "SE"
 msgstr "EP"
@@ -822,9 +840,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Resumo posterior de modelo único"
 
-msgid "Variable"
-msgstr "Variável"
-
 msgid "Single Model Posterior Distributions"
 msgstr "distribuição a posteriori de um único modelo"
 
@@ -873,6 +888,10 @@ msgstr "p<sub>Scheffé</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>Sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "Valor-p ajustado para comparar uma família de %s estimativas."
 
@@ -892,6 +911,9 @@ msgstr ""
 "O valor-p e os intervalos de confiança foram ajustados para comparar uma "
 "família de estimativas de %1$s (IC corrigidos usando o método %2$s; IC para "
 "o tamanho de efeito corrigido usando o método de Bonferroni)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Médias Marginais -"
@@ -1194,6 +1216,13 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Modelo nulo (incl. %s e inclinações aleatórias)"
 msgstr[1] "Modelos nulos (incl. %s, e inclinações aleatórias)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "A estimativa da diferença média é baseada na mediana da distribuição "
+#~ "bootstrap."
 
 #~ msgid "Chi-Squared"
 #~ msgstr "Qui-quadrado"

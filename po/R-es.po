@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-03-05 12:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -156,15 +156,20 @@ msgstr "Los resultados se promedian sobre los niveles de: %s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Algunos parámetros no eran estimables por falta de datos."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Bootstrapping basado en %s réplicas acertadas."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"La estimación de la Diferencia de Medias se basa en la mediana de la "
-"distribución de bootstrap."
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Diferencia de Medias"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"La estimación de las Medias Marginales se basa en la mediana de la "
+"distribución con Bootstrap."
 
 msgid "Bias corrected accelerated."
 msgstr "Sesgo corregido acelerado."
@@ -435,6 +440,9 @@ msgstr ""
 "Los valores P corregidos de %s no son apropiados para contrastes Post-hoc de "
 "medidas repetidas (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Bootstrapping basado en %s réplicas acertadas."
+
 msgid "Nonparametrics"
 msgstr "No Paramétricos"
 
@@ -671,6 +679,21 @@ msgstr "Resumen del Modelo Medio Posterior"
 msgid "%s%% Credible Interval"
 msgstr "Intervalo con el %s%% de Credibilidad"
 
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Level"
+msgstr "Nivel"
+
+msgid "Mean"
+msgstr "Media"
+
+msgid "SD"
+msgstr "DT"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "R%s medio del modelo"
 
@@ -717,9 +740,6 @@ msgstr ""
 "No se puede hacer el gráfico de la distribución posterior. Compruebe si se "
 "produjo un fallo en los modelos que incluyen este parámetro."
 
-msgid "Level"
-msgstr "Nivel"
-
 msgid "Density"
 msgstr "Densidad"
 
@@ -743,6 +763,10 @@ msgstr ""
 "previo de Cauchy (0, r = 1/sqrt (2)). La \"U\" en el factor de Bayes denota "
 "que no está corregido."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "Comparaciones Post-hoc -"
+
 msgid "Prior Odds"
 msgstr "Probabilidades Previas"
 
@@ -757,12 +781,6 @@ msgstr "Descriptivos - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "Media"
-
-msgid "SD"
-msgstr "DT"
 
 msgid "SE"
 msgstr "ET"
@@ -830,9 +848,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Resumen del Modelo Único Posterior"
 
-msgid "Variable"
-msgstr "Variable"
-
 msgid "Single Model Posterior Distributions"
 msgstr "Distribuciones del Modelo Único Posterior"
 
@@ -881,6 +896,10 @@ msgstr "p<sub>Scheffe</sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "p<sub>Sidak</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>F</sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "Valor P ajustado para comparar una familia de estimaciones de %s."
 
@@ -901,6 +920,9 @@ msgstr ""
 "estimaciones de %1$s ( (IC para la diferencia de medias corregidos usando el "
 "método %2$s; IC para la magnitud del efecto corregidos usando el método de "
 "Bonferroni)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "Medias Marginales -"
@@ -1200,6 +1222,13 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "Modelo nulo (incl. %s y pendientes aleatorias)"
 msgstr[1] "Modelo nulo (incl. %s, y pendientes aleatorias)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "La estimación de la Diferencia de Medias se basa en la mediana de la "
+#~ "distribución de bootstrap."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "No es un diseño completo de bloques inimitable."

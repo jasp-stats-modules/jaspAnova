@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.19.2\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-01-07 03:08+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/jaspanova-r/"
@@ -150,14 +150,19 @@ msgstr "முடிவுகள் சராசரியாக உள்ளன:
 msgid "Some parameters were not estimable due to missingness."
 msgstr "காணாமல் போனதால் சில அளவுருக்கள் மதிப்பிடப்படவில்லை."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "%s வெற்றிகரமான பிரதிகளின் அடிப்படையில் பூட்ச்ட்ராப்பிங்."
-
-msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+msgid "Mean Difference and Cohen's d estimates"
 msgstr ""
-"சராசரி வேறுபாடு மதிப்பீடு தொடக்கவார் விநியோகத்தின் சராசரியை அடிப்படையாகக் கொண்டது."
+
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "சராசரி வேறுபாடு"
+
+#, fuzzy
+msgid ""
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr ""
+"விளிம்பு என்றால் மதிப்பீடு தொடக்கவார் விநியோகத்தின் சராசரியை அடிப்படையாகக் கொண்டது."
 
 msgid "Bias corrected accelerated."
 msgstr "சார்பு சரி செய்யப்பட்டது."
@@ -422,6 +427,9 @@ msgstr ""
 "%s பி-மீண்டும் மீண்டும் நடவடிக்கைகளுக்கு பி-மதிப்புகள் பொருத்தமானவை அல்ல (மேக்ச்வெல், 1980; "
 "புலம், 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "%s வெற்றிகரமான பிரதிகளின் அடிப்படையில் பூட்ச்ட்ராப்பிங்."
+
 msgid "Nonparametrics"
 msgstr "அளவுரு அல்லாதவை"
 
@@ -647,6 +655,21 @@ msgstr "மாதிரி சராசரி பின்புற சுரு
 msgid "%s%% Credible Interval"
 msgstr "%s %% நம்பகமான இடைவெளி"
 
+msgid "Variable"
+msgstr "மாறக்கூடிய"
+
+msgid "Level"
+msgstr "நிலை"
+
+msgid "Mean"
+msgstr "இடை, சராசரி"
+
+msgid "SD"
+msgstr "எச்டி"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "மாதிரி சராசரி r%s"
 
@@ -693,9 +716,6 @@ msgstr ""
 "பின்புற விநியோகத்தை சூழ்ச்சி செய்ய முடியவில்லை. இந்த அளவுரு உள்ளிட்ட மாதிரிகளுக்கு "
 "பிழை ஏற்பட்டதா என்று சரிபார்க்கவும்."
 
-msgid "Level"
-msgstr "நிலை"
-
 msgid "Density"
 msgstr "அடர்த்தி"
 
@@ -718,6 +738,10 @@ msgstr ""
 "= 1/sqrt (2)) முன். பேயச் காரணியில் உள்ள \"யு\" அது சரி செய்யப்படாதது என்பதைக் "
 "குறிக்கிறது."
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "பிந்தைய தற்காலிக ஒப்பீடுகள் -"
+
 msgid "Prior Odds"
 msgstr "முன் முரண்பாடுகள்"
 
@@ -732,12 +756,6 @@ msgstr "விளக்கங்கள் - %s"
 
 msgid "N"
 msgstr "என்"
-
-msgid "Mean"
-msgstr "இடை, சராசரி"
-
-msgid "SD"
-msgstr "எச்டி"
 
 msgid "SE"
 msgstr "உடன்"
@@ -802,9 +820,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "ஒற்றை மாதிரி பின்புற சுருக்கம்"
 
-msgid "Variable"
-msgstr "மாறக்கூடிய"
-
 msgid "Single Model Posterior Distributions"
 msgstr "ஒற்றை மாதிரி பின்புற விநியோகங்கள்"
 
@@ -856,6 +871,10 @@ msgstr "பி <sub> சிப்ட்ச் </sub>"
 msgid "p<sub>Sidak</sub>"
 msgstr "பி <sub> ஆய்வு </sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "பி <sub> எஃப் </sub>"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "%s மதிப்பீடுகளின் குடும்பத்தை ஒப்பிடுவதற்கு பி-மதிப்பு சரிசெய்யப்பட்டது."
 
@@ -875,6 +894,9 @@ msgstr ""
 "பி-மதிப்பு மற்றும் நம்பிக்கை இடைவெளிகள் %1$s மதிப்பீடுகளின் குடும்பத்தை ஒப்பிட்டுப் பார்க்க "
 "சரிசெய்யப்படுகின்றன ( %2$s முறையைப் பயன்படுத்தி சரிசெய்யப்பட்ட சராசரி வேறுபாட்டிற்கான "
 "சிஐ; விளைவு அளவிற்கு தொஒ போன்பெரோரோனி முறையைப் பயன்படுத்தி சரி செய்யப்பட்டது)."
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "விளிம்பு வழிமுறைகள் -"
@@ -1158,6 +1180,12 @@ msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "சுழிய மாதிரி (உள்ளிட்ட %s மற்றும் சீரற்ற சரிவுகள்)"
 msgstr[1] "சுழிய மாதிரி (உள்ளிட்ட %s, மற்றும் சீரற்ற சரிவுகள்)"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr ""
+#~ "சராசரி வேறுபாடு மதிப்பீடு தொடக்கவார் விநியோகத்தின் சராசரியை அடிப்படையாகக் கொண்டது."
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "பயன்படுத்தப்படாத முழுமையான தொகுதி வடிவமைப்பு அல்ல."

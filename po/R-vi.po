@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.19.2\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-02-20 09:09+0000\n"
 "Last-Translator: Tran Thien Truong <truongtrandds@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/jasp/"
@@ -156,12 +156,17 @@ msgstr "Kết quả được tính trung bình trên các mức của biến: %s
 msgid "Some parameters were not estimable due to missingness."
 msgstr "Một số tham số không thể ước lượng được do dữ liệu bị thiếu."
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "Phép lặp bootstrap được thực hiện dựa trên %s lần lặp thành công."
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
 
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "Chênh lệch trung bình"
+
+#, fuzzy
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
 msgstr ""
 "Ước lượng Chênh lệch Trung bình được dựa trên trung vị của phân phối "
 "bootstrap."
@@ -436,6 +441,9 @@ msgstr ""
 "Các giá trị p đã hiệu chỉnh theo %s không phù hợp cho kiểm định hậu nghiệm "
 "trong thiết kế đo lặp (Maxwell, 1980; Field, 2012)."
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "Phép lặp bootstrap được thực hiện dựa trên %s lần lặp thành công."
+
 msgid "Nonparametrics"
 msgstr "Phi tham số"
 
@@ -638,6 +646,21 @@ msgstr ""
 msgid "%s%% Credible Interval"
 msgstr ""
 
+msgid "Variable"
+msgstr "Biến"
+
+msgid "Level"
+msgstr ""
+
+msgid "Mean"
+msgstr ""
+
+msgid "SD"
+msgstr "Độ lệch chuẩn"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr ""
 
@@ -677,9 +700,6 @@ msgid ""
 "including this parameter."
 msgstr ""
 
-msgid "Level"
-msgstr ""
-
 msgid "Density"
 msgstr "Mật độ"
 
@@ -697,6 +717,10 @@ msgid ""
 "Bayes factor denotes that it is uncorrected."
 msgstr ""
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "So sánh hậu nghiệm Dunn - %s"
+
 msgid "Prior Odds"
 msgstr ""
 
@@ -711,12 +735,6 @@ msgstr ""
 
 msgid "N"
 msgstr ""
-
-msgid "Mean"
-msgstr ""
-
-msgid "SD"
-msgstr "Độ lệch chuẩn"
 
 msgid "SE"
 msgstr ""
@@ -780,9 +798,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "Tóm tắt hậu nghiệm của mô hình duy nhất"
 
-msgid "Variable"
-msgstr "Biến"
-
 msgid "Single Model Posterior Distributions"
 msgstr "Phân phối hậu nghiệm của mô hình duy nhất"
 
@@ -834,6 +849,10 @@ msgstr "p<sub>bonf</sub> (Giá trị p hiệu chỉnh Bonferroni)"
 msgid "p<sub>Sidak</sub>"
 msgstr "W<sub>i</sub>"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "p<sub>Bonf</sub> (Giá trị p hiệu chỉnh Bonferroni)"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr ""
 
@@ -846,6 +865,9 @@ msgid ""
 "P-value and confidence intervals adjusted for comparing a family of %1$s "
 "estimates (ci for mean difference corrected using the %2$s method; ci for "
 "effect size corrected using the Bonferroni method)."
+msgstr ""
+
+msgid "The p-value correction is not affected by the bootstrap."
 msgstr ""
 
 msgid "Marginal Means -"

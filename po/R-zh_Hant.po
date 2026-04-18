@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspAnova 0.17.0\n"
-"POT-Creation-Date: 2026-02-28 03:19\n"
+"POT-Creation-Date: 2026-04-18 03:38\n"
 "PO-Revision-Date: 2026-04-12 22:13+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -142,13 +142,18 @@ msgstr "結果為以下水準之平均值：%s"
 msgid "Some parameters were not estimable due to missingness."
 msgstr "由於存在遺漏植，導致某些參數將無法被估計。"
 
-msgid "Bootstrapping based on %s successful replicates."
-msgstr "拔靴法已進行%s次的成功取樣。"
+msgid "Mean Difference and Cohen's d estimates"
+msgstr ""
 
+#, fuzzy
+msgid "Mean Difference estimates"
+msgstr "平均數差異"
+
+#, fuzzy
 msgid ""
-"Mean Difference estimate is based on the median of the bootstrap "
-"distribution."
-msgstr "平均數差異之估計值是基於拔靴法分配的中位數。"
+"Bootstrapping based on %1$s replicates. %2$s are based on the median of the "
+"bootstrap distribution."
+msgstr "邊際平均數估計值是基於拔學法分配之中位數。"
 
 msgid "Bias corrected accelerated."
 msgstr "偏誤加速校正(BCa)。"
@@ -393,6 +398,9 @@ msgid ""
 msgstr ""
 "%s 校正後的 p 值不適用於重複量數事後檢驗（Maxwell，1980；Field，2012）。"
 
+msgid "Bootstrapping based on %s successful replicates."
+msgstr "拔靴法已進行%s次的成功取樣。"
+
 msgid "Nonparametrics"
 msgstr "無母數"
 
@@ -609,6 +617,21 @@ msgstr "模型平均後驗摘要"
 msgid "%s%% Credible Interval"
 msgstr "%s%% 可信區間"
 
+msgid "Variable"
+msgstr "變項"
+
+msgid "Level"
+msgstr "水準"
+
+msgid "Mean"
+msgstr "平均數"
+
+msgid "SD"
+msgstr "標準差"
+
+msgid "Intercept"
+msgstr ""
+
 msgid "Model Averaged R%s"
 msgstr "模型平均R%s"
 
@@ -651,9 +674,6 @@ msgid ""
 "including this parameter."
 msgstr "無法繪製後驗分配圖。檢查包含此參數的模型是否有錯誤。"
 
-msgid "Level"
-msgstr "水準"
-
 msgid "Density"
 msgstr "密度"
 
@@ -674,6 +694,10 @@ msgstr ""
 "0.5（Westfall， Johnson， & Utts， 1997）。個別比較是基於預設的先驗柯西 "
 "（0， r = 1/sqrt（2））t 檢定。貝氏因子中的「U」表示它未校正。"
 
+#, fuzzy
+msgid "Post Hoc Comparisons - %s"
+msgstr "事後比較 -"
+
 msgid "Prior Odds"
 msgstr "先前勝率"
 
@@ -688,12 +712,6 @@ msgstr "描述性統計 - %s"
 
 msgid "N"
 msgstr "N"
-
-msgid "Mean"
-msgstr "平均數"
-
-msgid "SD"
-msgstr "標準差"
 
 msgid "SE"
 msgstr "標準誤"
@@ -754,9 +772,6 @@ msgstr ""
 msgid "Single Model Posterior Summary"
 msgstr "單一模型後驗摘要"
 
-msgid "Variable"
-msgstr "變項"
-
 msgid "Single Model Posterior Distributions"
 msgstr "單一模式後驗分配"
 
@@ -805,6 +820,10 @@ msgstr "<sub>Scheffe</sub> p值"
 msgid "p<sub>Sidak</sub>"
 msgstr "<sub>Sidak</sub>p值"
 
+#, fuzzy
+msgid "p<sub>BH</sub>"
+msgstr "<sub>F</sub> p值"
+
 msgid "P-value adjusted for comparing a family of %s estimates."
 msgstr "針對比較一組%s估計值，而調整P值。"
 
@@ -820,6 +839,9 @@ msgid ""
 "effect size corrected using the Bonferroni method)."
 msgstr ""
 "調整 P 值和信賴區間以比較一系列 %1$s 估計值（使用 %2$s 方法校正信賴區間）。"
+
+msgid "The p-value correction is not affected by the bootstrap."
+msgstr ""
 
 msgid "Marginal Means -"
 msgstr "邊際平均數"
@@ -1085,6 +1107,11 @@ msgstr ""
 msgid "Null model (incl. %s and random slopes)"
 msgid_plural "Null model (incl. %s, and random slopes)"
 msgstr[0] "虛無模型（包括 %s 與隨機斜率）"
+
+#~ msgid ""
+#~ "Mean Difference estimate is based on the median of the bootstrap "
+#~ "distribution."
+#~ msgstr "平均數差異之估計值是基於拔靴法分配的中位數。"
 
 #~ msgid "Not an unreplicated complete block design."
 #~ msgstr "並非不可複製的完整區組設計。"
